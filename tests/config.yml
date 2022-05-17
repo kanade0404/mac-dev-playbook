@@ -1,7 +1,6 @@
 ---
 homebrew_installed_packages:
   - autoconf
-  - bash-completion
   - gettext
   - sqlite
   - ssh-copy-id
@@ -10,7 +9,30 @@ homebrew_installed_packages:
   - pv
   - wget
   - wrk
+  - jq
+  - tcptraceroute
+  - rust
+  - htop
+  poetry
 
 homebrew_cask_apps:
   - firefox
   - licecap
+  - slack
+  - docker
+  - dropbox
+  - google-chrome
+  - chromium
+  - gimp
+  - karabiner-elements
+  - postman
+  - raycast
+  - warp
+  - jetbrains-toolbox
+
+mas_installed_apps:
+  - { id: 443987910, name: '1Password' }
+  - { id: 405399194, name: 'Kindle' }
+  - { id: 1482454543, name: 'Twitter' }
+  - { id: 539883307, name: 'LINE' }
+  - { id: 425424353, nmae: 'The Unarchiver' }
