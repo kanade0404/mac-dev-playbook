@@ -24,7 +24,7 @@ sudoers_custom_config: ''
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/kanade0404/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
@@ -33,6 +33,7 @@ dotfiles_files:
   - .inputrc
   - .osx
   - .vimrc
+  - .gitmessage
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -62,6 +63,13 @@ homebrew_installed_packages:
   - wget
   - wrk
   - zsh-history-substring-search
+  - jq
+  - tcptraceroute
+  - rust
+  - htop
+  - poetry
+  - direnv
+  - mysql
 
 homebrew_taps:
   - homebrew/core
@@ -76,14 +84,32 @@ homebrew_cask_apps:
   - google-chrome
   - handbrake
   - licecap
-  - sequel-ace
   - slack
   - sublime-text
   - transmit
-  - vagrant
+  - karabiner-elements
+  - postman
+  - warp
+  - raycast
+  - jetbrains-toolbox
+  - chromium
+  - visual-studio-code
+  - 1password
+  - authy
+  - the-unarchiver
+  - zoom
+  - notion
+  - spotify
+  - discord
+  - gyazo
 
-# See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+
+# See `kanade0404.mas` role documentation for usage instructions.
+mas_installed_apps:
+  - { id: 405399194, name: 'Kindle' }
+  - { id: 1482454543, name: 'Twitter' }
+  - { id: 539883307, name: 'LINE' }
+
 mas_email: ""
 mas_password: ""
 
