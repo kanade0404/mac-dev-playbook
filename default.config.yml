@@ -70,6 +70,19 @@ homebrew_installed_packages:
   - poetry
   - direnv
   - mysql
+  - nodenv
+  - tfenv
+  - tree
+  - fd
+  - ripgrep
+  - ripgrep-all
+  - sd
+  - exa
+  - zoxide
+  - bat
+  - delta
+  - starship
+  - gitui
 
 homebrew_taps:
   - homebrew/core
@@ -102,18 +115,21 @@ homebrew_cask_apps:
   - spotify
   - discord
   - gyazo
-
+  - tunnelblick
+  - obsidian
+  - secretive
 
 # See `kanade0404.mas` role documentation for usage instructions.
 mas_installed_apps:
   - { id: 405399194, name: 'Kindle' }
   - { id: 1482454543, name: 'Twitter' }
   - { id: 539883307, name: 'LINE' }
+  - { id: 973134470, name: 'Be Focused' }
 
-mas_email: ""
-mas_password: ""
+mas_email: ''
+mas_password: ''
 
-osx_script: "~/.osx --no-restart"
+osx_script: '~/.osx --no-restart'
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
@@ -126,7 +142,7 @@ gem_packages: []
 # - name: bundler
 #   state: present # present/absent/latest, default: present
 #   version: "~> 1.15.1" # default: N/A
-npm_packages: 
+npm_packages:
   - yarn
 # - name: webpack
 #   state: present # present/absent/latest, default: present
@@ -139,20 +155,20 @@ pip_packages: []
 # Set to 'true' to configure Sublime Text.
 configure_sublime: false
 sublime_base_path: '~/Library/Application Support/Sublime Text'
-sublime_config_path: "Packages/User"
+sublime_config_path: 'Packages/User'
 sublime_package_control:
-  - "DocBlockr"
-  - "Dockerfile Syntax Highlighting"
-  - "FileDiffs"
-  - "GitHub Flavored Markdown Preview"
-  - "Jinja2"
-  - "Package Control"
-  - "PHP-Twig"
-  - "Pretty JSON"
-  - "SublimeLinter"
-  - "SublimeLinter-contrib-yamllint"
-  - "TrailingSpaces"
-  - "WordCount"
+  - 'DocBlockr'
+  - 'Dockerfile Syntax Highlighting'
+  - 'FileDiffs'
+  - 'GitHub Flavored Markdown Preview'
+  - 'Jinja2'
+  - 'Package Control'
+  - 'PHP-Twig'
+  - 'Pretty JSON'
+  - 'SublimeLinter'
+  - 'SublimeLinter-contrib-yamllint'
+  - 'TrailingSpaces'
+  - 'WordCount'
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
